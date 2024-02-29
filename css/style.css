@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
 }
 .header {
-    position: relative; /* absolute positioning */
+    position: relative; 
     text-align: center;
     min-height: 130px;
     z-index: 1;
