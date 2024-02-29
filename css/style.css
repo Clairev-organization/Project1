@@ -8,6 +8,8 @@ body {
 .header {
     position: relative; /* absolute positioning */
     text-align: center;
+    min-height: 300px;
+    z-index: 1;
 }
 
 .header-background {
@@ -51,7 +53,7 @@ input[type="password"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #0073e6;
+    background-color: #51575d;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -59,5 +61,5 @@ button {
 }
 
 button:hover {
-    background-color: #005bb5;
+    background-color: #585d62;
 }
