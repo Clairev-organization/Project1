@@ -1,14 +1,14 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
 }
 .header {
     position: relative; /* absolute positioning */
     text-align: center;
-    min-height: 300px;
+    min-height: 130px;
     z-index: 1;
 }
 
@@ -22,13 +22,13 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5; 
+    opacity: 1; 
 }
 
 .container {
     width: 400px;
     margin: 100px auto;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@ button {
     width: 100%;
     padding: 10px;
     background-color: #51575d;
-    color: #fff;
+    color: #d8d8d8;
     border: none;
     border-radius: 5px;
     cursor: pointer;
