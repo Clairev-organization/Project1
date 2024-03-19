@@ -1,4 +1,3 @@
-
 body {
     font-family: 'MedievalSharp', cursive;
     margin: 0;
@@ -8,6 +7,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .header {
     position: relative; 
     text-align: center;
@@ -75,4 +75,17 @@ button {
 
 button:hover {
     background-color: #585d62;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 600px;
+    }
 }
