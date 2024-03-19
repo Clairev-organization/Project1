@@ -77,15 +77,47 @@ button:hover {
     background-color: #585d62;
 }
 
-/* Media Queries */
+/* media queries */
 @media (min-width: 600px) {
     body {
         font-size: 18px;
+    }
+    
+    .container {
+        width: 80%;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        padding: 12px;
     }
 }
 
 @media (min-width: 1024px) {
     .container {
-        width: 600px;
+        width: 70%;
+        max-width: 800px;
+    }
+
+    .header {
+        min-height: 200px;
+    }
+
+    .header-background {
+        opacity: 0.8;
+    }
+
+    .logo {
+        width: 70px;
+        bottom: 20px;
+        left: 20px;
     }
 }
